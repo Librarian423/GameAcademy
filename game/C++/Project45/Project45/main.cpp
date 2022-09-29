@@ -23,6 +23,7 @@ int main()
 	Maze maze;
 	maze.CreateMap("Game/Loby.txt");
 	
+
 	while ( _getch() != SPACE ){}
 	system("cls");
 	Menu menu;
